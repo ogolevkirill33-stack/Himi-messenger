@@ -14,7 +14,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip Himi.zip -d source
+         unzip HIMI_CHAT_Server_Package.zip -d source
 
       - name: Setup Java
         uses: actions/setup-java@v4
